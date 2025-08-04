@@ -21,10 +21,3 @@ Analizowane są dwa główne podejścia:
 * **Wysoka wartość funkcji kosztu** w etapach uczenia Metody 2 wskazuje na złożoność zadania i obszary do dalszych badań nad stabilnością i efektywnością.  
 * **Duża korelacja** wyjścia wytrenowanego modelu z Metody 1 do metryki opartej na odpowiedzi oryginalnego U-Netu po dodaniu szumu wymaga głębszej analizy i teoretycznego uzasadnienia.
 
-## Struktura repozytorium
-```text
-├── data/           # skrypty pobierania / wstępnej obróbki CIFAR-10
-├── models/         # definicje U-Net, Glow, EBM
-├── notebooks/      # eksperymenty i wizualizacje
-├── src/            # główny kod trenowania i ewaluacji
-└── README.md
